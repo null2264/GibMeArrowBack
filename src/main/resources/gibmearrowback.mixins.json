@@ -1,0 +1,24 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "io.github.null2264.gibmearrowback.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "LivingEntityMixin"
+    ],
+    "client": [
+        "AnimalModelAccessor",
+        "LivingEntityRendererMixin",
+        "ModelPartAccessor",
+        "model.AnimalModelMixin",
+        "model.BeeEntityModelMixin",
+        "model.DolphinEntityModelMixin",
+        "model.LlamaEntityModelMixin",
+        "model.RabbitEntityModelMixin",
+        "model.ShulkerEntityModelMixin",
+        "model.SinglePartEntityModelMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}

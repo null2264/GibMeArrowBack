@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "gibmearrowback",
+    "version": "${version}",
+    "name": "GibMeArrowBack",
+    "description": "",
+    "authors": [
+        "null2264"
+    ],
+    "contact": {
+        "repo": "https://github.com/null2264/GibMeArrowBack"
+    },
+    "license": "MPL-2.0",
+    "icon": "assets/gibmearrowback/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.null2264.gibmearrowback.GibMeArrowBack"
+        ]
+    },
+    "mixins": [
+        "gibmearrowback.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "*",
+        "fabric": "*",
+        "minecraft": ">=1.18.2"
+    }
+}
